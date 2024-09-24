@@ -6,6 +6,7 @@ import 'package:food_recipee_app_june/view/bookmarks_screen/bookmark_screen.dart
 import 'package:food_recipee_app_june/view/create_recipee_screen/create_recipe_screen.dart';
 import 'package:food_recipee_app_june/view/home_screen/home_screen.dart';
 import 'package:food_recipee_app_june/view/notification_screen/notification_screen.dart';
+import 'package:food_recipee_app_june/view/profile_screen/profile_screen.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class BottomNavbarScreen extends StatefulWidget {
@@ -22,7 +23,7 @@ class _BottomNavbarScreenState extends State<BottomNavbarScreen> {
     HomeScreen(),
     BookmarkScreen(),
     NotificationScreen(),
-    Container(color: Colors.yellow),
+    ProfileScreen()
   ];
   @override
   Widget build(BuildContext context) {

@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
               SizedBox(height: 16),
               _recentReceipeSection(),
               SizedBox(height: 16),
-              _popularcategorySection()
+              _popularCreatorSection()
             ],
           ),
         ),
@@ -30,7 +30,7 @@ class HomeScreen extends StatelessWidget {
     );
   }
 
-  Column _popularcategorySection() {
+  Column _popularCreatorSection() {
     return Column(
       children: [
         Padding(

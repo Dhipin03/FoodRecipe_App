@@ -11,6 +11,21 @@ class Notification_widget extends StatelessWidget {
       children: [
         Container(
           child: ListTile(
+            leading: Padding(
+              padding: const EdgeInsets.only(bottom: 22),
+              child: Container(
+                child: Icon(
+                  Icons.description,
+                  color: ColorConstants.greenshade2,
+                  size: 16,
+                ),
+                decoration: BoxDecoration(
+                    color: ColorConstants.greenshade1,
+                    borderRadius: BorderRadius.circular(10)),
+                width: 28,
+                height: 28,
+              ),
+            ),
             subtitleTextStyle: TextStyle(color: ColorConstants.greyShade1),
             subtitle: Text(
                 'far far away, behind the world\nmountainns, far from the countries'),
