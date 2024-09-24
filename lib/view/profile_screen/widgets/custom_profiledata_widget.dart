@@ -12,7 +12,7 @@ class CustomProfileDataWidget extends StatelessWidget {
     return Column(
       children: [
         Text(
-          'Reciepe',
+          '$text1',
           style: TextStyle(
               color: ColorConstants.greyShade1,
               fontWeight: FontWeight.w600,
@@ -20,7 +20,7 @@ class CustomProfileDataWidget extends StatelessWidget {
         ),
         SizedBox(height: 2),
         Text(
-          '3',
+          '$text2',
           style: TextStyle(
               color: ColorConstants.mainBlack,
               fontSize: 20,

@@ -21,7 +21,7 @@ class CustomRecipeCard extends StatelessWidget {
         onTap: () {},
         child: Container(
           height: 200,
-          width: 370,
+          width: 335,
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
               image: DecorationImage(
